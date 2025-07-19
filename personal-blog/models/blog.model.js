@@ -1,5 +1,4 @@
-const { Schema, model } = require("mongoose");
-
+const { Schema, model } = require('mongoose');
 
 const blogSchema = new Schema({
   content: {
@@ -13,6 +12,6 @@ const blogSchema = new Schema({
   },
 });
 
-const BlogModel = model("Blog", blogSchema);
+const BlogModel = model('Blog', blogSchema);
 
 module.exports = BlogModel;
